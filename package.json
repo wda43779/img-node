@@ -1,6 +1,6 @@
 {
   "name": "img-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "img-node, a simple image upload server",
   "main": "index.js",
   "scripts": {

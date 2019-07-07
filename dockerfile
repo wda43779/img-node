@@ -20,5 +20,5 @@ COPY --from=0 /app/dist ./dist/
 
 EXPOSE 3004
 RUN mkdir uploads
-VOLUME [ "./uploads" ]
+VOLUME [ "/app/uploads" ]
 ENTRYPOINT [ "npm", "start"]
